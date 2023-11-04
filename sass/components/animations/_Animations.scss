@@ -1,0 +1,23 @@
+.Product{
+    transition: 0.5;
+}
+.Product:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Plans{
+    transition: 0.5;
+}
+.Plans:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Blog{
+    transition: 0.5;
+}
+.Blog:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

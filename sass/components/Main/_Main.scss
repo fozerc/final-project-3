@@ -1,0 +1,70 @@
+.grid_container{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    background-color: #242427;
+    .margin_container{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 300px 700px;
+        grid-template-areas:
+        "header header1 header1"
+        "content content content1";
+    }
+}
+
+.console{
+    background-color: #323235;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-left: 12px;
+        li{
+            padding-top: 6px;
+            padding-bottom: 4px;
+            padding-left: 7px;
+        }
+    }
+}
+
+.item1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-area: header;
+    border-radius: 20px;
+    background-color: #25E197;
+}
+
+.item2{
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    background-color: #FFD233;
+    border-radius: 20px;
+    grid-area: header1;
+}
+
+.item3{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #792EFF;
+    border-radius: 20px;
+    grid-area: content;
+}
+
+.item4{ 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #C4C4C8;
+    border-radius: 20px;
+    grid-area: content1;
+}
