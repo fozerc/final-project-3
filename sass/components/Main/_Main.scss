@@ -122,7 +122,7 @@
 .main-cards_container{
     margin-left: 20px;
     margin-top: 150px;
-    background-color: #1C1C1E;
+    background-color: var(--show-cards-container-color);
     width: 540px;
     height: 650px;
     border-radius: 15px;
@@ -163,7 +163,7 @@
 }
 .main-cards_container{
     margin-left: 20px;
-    background-color: #1C1C1E;
+    background-color: var(--show-cards-container-color);
     border-radius: 15px;
     .card-font2{
         list-style: none;
@@ -222,7 +222,7 @@
 .main-cards_container2{
     margin-left: 20px;
     margin-top: 150px;
-    background-color: #1C1C1E;
+    background-color: var(--show-cards-container-color);
     width: 540px;
     height: 650px;
     border-radius: 15px;
@@ -230,7 +230,7 @@
  
         list-style: none;
         li:nth-child(1){
-            color: #8E8E98;
+            color: var(--cards-font-color);
             padding-top: 20px;
             padding-left: 30px;
         }
@@ -244,13 +244,13 @@
             font-size: 30px;
             padding-top:30px;
             padding-left: 30px;
-            color: #8E8E98;
+            color: var(--cards-font-color);
         }
         li:nth-child(4){
             font-size: 15px;
             padding-top: 30px;
             padding-left: 30px;
-            color: #72727A;
+            color: var(--cards-font-color);
         }
     }
     .card-image3{
@@ -265,12 +265,12 @@
 }
 .main-cards_container2{
     margin-left: 20px;
-    background-color: #1C1C1E;
+    background-color: var(--show-cards-container-color);
     border-radius: 15px;
     .card-font4{
         list-style: none;
         li:nth-child(1){
-            color: #8E8E98;
+            color: var(--cards-font-color);
             padding-top: 20px;
             padding-left: 30px;
         }
@@ -284,7 +284,7 @@
             font-size: 30px;
             padding-top: 50px;
             padding-left: 30px;
-            color: #8E8E98;
+            color:var(--cards-font-color);
         }
         li:nth-child(4){
             font-size: 15px;
@@ -313,6 +313,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    @media screen and (max-width: 1000px){
+        margin-right: 0px;
+    }
     h1{
         font-size: 40px;
         font-weight: 400;
@@ -320,11 +323,16 @@
     }
 }
 
+
+
 .title2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 690px;
+        @media screen and (max-width: 1000px){
+        margin-right: 0px;
+    }
 }
     p{
         font-size: 35px;
@@ -340,7 +348,7 @@
 
 .show-cards_container{
     margin-top: 20px;
-    background-color: #1C1C1E;
+    background-color:var(--show-cards-container-color);
     border-radius: 10px;
     width: 250px;
     height: 140px;
@@ -360,7 +368,7 @@
 
 .show-cards_container2{
     margin-top: 20px;
-    background-color: #1C1C1E;
+    background-color: var(--show-cards-container-color);
     border-radius: 10px;
     width: 250px;
     height: 140px;
@@ -380,7 +388,7 @@
 
 .show-cards_container3{
     margin-top: 20px;
-    background-color: #1C1C1E;
+    background-color: var(--show-cards-container-color);
     border-radius: 10px;
     width: 250px;
     height: 140px;
@@ -400,7 +408,7 @@
 
 .show-cards_container4{
     margin-top: 20px;
-    background-color: #1C1C1E;
+    background-color: var(--show-cards-container-color);
     border-radius: 10px;
     width: 250px;
     height: 140px;
@@ -513,6 +521,9 @@
     justify-content: center;
     margin-top: 200px;
     margin-right: 750px;
+        @media screen and (max-width: 1000px){
+        margin-right: 0px;
+    }
     h2{
         font-size: 40px;
         color: #FFFFFF;
@@ -528,9 +539,13 @@
     display: flex;
     justify-content: center;
     ul{
+        justify-content: center;
         flex-wrap: wrap;
         list-style: none;
         display: flex;
+        li:nth-child(1){
+            margin-left: 30px;
+        }
         li:nth-child(2){
             margin-left: 30px;
         }
@@ -546,6 +561,9 @@
     justify-content: center;
     margin-top: 30px;
     margin-right: 960px;
+        @media screen and (max-width: 1000px){
+        margin-right: 0px;
+    }
     button{
         background-color: #8E8E98;
         border-radius: 10px;
@@ -553,5 +571,6 @@
         height: 40px;
         cursor: pointer;
         transition: 0.3s;
+        
     }
 }
