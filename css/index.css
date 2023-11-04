@@ -272,6 +272,185 @@ body {
   grid-area: content1;
 }
 
+.main_desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 300px;
+}
+.main_desc div {
+  color: white;
+}
+.main_desc div ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+}
+.main_desc div ul li:nth-child(1) {
+  font-weight: 400;
+  font-size: 30px;
+}
+.main_desc div ul li:nth-child(2) {
+  color: #8E8E98;
+  font-size: 35px;
+}
+.main_desc div ul li:nth-child(3) {
+  color: #8E8E98;
+  font-size: 18px;
+}
+.main_desc div ul .anim {
+  color: #196CFA;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 78px;
+}
+
+.main-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-cards_container {
+  margin-left: 20px;
+  margin-top: 150px;
+  background-color: #1C1C1E;
+  width: 540px;
+  height: 650px;
+  border-radius: 15px;
+}
+.main-cards_container .card-font {
+  margin-top: 40px;
+  list-style: none;
+}
+.main-cards_container .card-font li:nth-child(1) {
+  font-size: 40px;
+  padding-top: 13px;
+  padding-left: 30px;
+  color: #FFFFFF;
+}
+.main-cards_container .card-font li:nth-child(2) {
+  font-size: 30px;
+  padding-top: 70px;
+  padding-left: 30px;
+  color: #8E8E98;
+}
+.main-cards_container .card-font li:nth-child(3) {
+  font-size: 15px;
+  padding-top: 60px;
+  padding-left: 30px;
+  color: #72727A;
+}
+.main-cards_container .card-image {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+}
+.main-cards_container .card-image li:nth-child(2) {
+  margin-left: 10px;
+}
+.main-cards_container .card-image li:nth-child(3) {
+  margin-left: 10px;
+}
+
+.main-cards_container {
+  margin-left: 20px;
+  background-color: #1C1C1E;
+  border-radius: 15px;
+}
+.main-cards_container .card-font2 {
+  list-style: none;
+}
+.main-cards_container .card-font2 li:nth-child(1) {
+  color: #8E8E98;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.main-cards_container .card-font2 li:nth-child(2) {
+  font-size: 40px;
+  padding-top: 15px;
+  padding-left: 30px;
+  color: #FFFFFF;
+}
+.main-cards_container .card-font2 li:nth-child(3) {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-left: 30px;
+  color: #8E8E98;
+}
+.main-cards_container .card-font2 li:nth-child(4) {
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 30px;
+  color: #72727A;
+}
+.main-cards_container .card-image2 {
+  padding-left: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+}
+.main-cards_container .card-image2 li:nth-child(2) {
+  margin-left: 10px;
+}
+.main-cards_container .card-image2 li:nth-child(3) {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-cards_container .card-image2 li:nth-child(4) {
+  position: relative;
+  top: 55px;
+  right: 50px;
+}
+.main-cards_container .card-image2 li:nth-child(5) {
+  position: relative;
+  top: 20px;
+  right: 320px;
+}
+
+.main_desc2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+}
+.main_desc2 p {
+  color: white;
+  font-size: 110px;
+}
+
 .Product {
   -webkit-transition: 0.5;
   transition: 0.5;
@@ -299,5 +478,9 @@ body {
 
 .Blog:hover {
   cursor: pointer;
+  text-decoration: underline;
+}
+
+.anim:hover {
   text-decoration: underline;
 }
